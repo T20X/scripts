@@ -17,4 +17,5 @@ git clone https://github.com/vim-scripts/a.vim.git $BUNDLE_DIR/a
 git clone https://github.com/tpope/vim-fugitive.git $BUNDLE_DIR/fugitive
 git clone https://github.com/ervandew/supertab.git $BUNDLE_DIR/supertab
 git clone https://github.com/vim-scripts/greplace.vim.git $BUNDLE_DIR/greplace
+git clone https://github.com/majutsushi/tagbar.git $BUNDLE_DIR/tagbar
 
