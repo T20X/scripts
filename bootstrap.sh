@@ -1,8 +1,8 @@
 # setup vim!
-BUNDLE_DIR=~/workdir/vim/bundle
+BUNDLE_DIR=$WORK_DIR/vim/bundle
 
 rm ~/.vimrc
-ln -s ~/workdir/vim/.vimrc ~/.vimrc 
+ln -s $WORK_DIR/vim/.vimrc ~/.vimrc 
 rm -rf $BUNDLE_DIR
 mkdir -p ~/.vim/autoload
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
