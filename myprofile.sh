@@ -1,5 +1,6 @@
 alias v='vim'
 alias b='cd ..'
+alias d='docker'
 alias notes='cd ~/workdir/notes'
 alias m='sudo mount -t vboxsf exchange /media/sf_exchange/; sudo mount -t vboxsf shared /media/sf_shared/'
 alias share='cd /media/sf_exchange'
@@ -15,11 +16,12 @@ alias python='python3.7'
 alias tags='ctags -R --language-force=c++ --c++-kinds=+l --file-scope=no --tag-relative=no .'
 alias p='cd /home/maine/kong/kong/python/grpc/examples/python/helloworld'
 alias ip='source ~/kong/kong/python/venv3/bin/activate'
+alias fi='sudo netplan apply'
 
 
 export BOOST_INCLUDE=/media/sf_shared/boost_1_71_0
 export PROJECTS=~/cpp_snippets
-export PATH=/usr/local/bin:/home/maine/.local/bin:/home/maine/go/bin:/home/maine/fasm:$PATH
+export PATH=~/docker:/usr/local/bin:/home/maine/bin:/home/maine/.local/bin:/home/maine/go/bin:/home/maine/fasm:/home/mgarkusha_exd/setup/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/lib64:$LD_LIBRARY_PATH
 
 export INCLUDE=/home/maine/fasm/source/Linux 
