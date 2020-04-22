@@ -1,8 +1,7 @@
 # setup vim!
-WORK_DIR=~/workdir
-BUNDLE_DIR=$WORK_DIR/vim/bundle
-
-cp -r bin ~/
+WORK_DIR=${1:-~/workdir}
+BUNDLE_DIR=$WORK_DIR/vim/bundle 
+cp -r bin ~/ 
 
 git clone https://github.com/T20X/vim.git $WORK_DIR/vim
 
