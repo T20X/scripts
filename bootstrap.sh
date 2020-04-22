@@ -5,9 +5,11 @@ cp -r bin ~/
 
 git clone https://github.com/T20X/vim.git $WORK_DIR/vim
 
-echo ". $WORK_DIR/scripts/myprofile.sh" > ~/.bashrc
-cp myprofile.sh $WORK_DIR/scripts
-ln -s ${PWD}/myprofile.sh $WORK_DIR/scripts/myprofile.sh
+MYPROFILE_PATH=$(realpath myprofile.sh) 
+echo ". $MYPROFILE_PATH" > ~/.bashrc
+
+#cp myprofile.sh $WORK_DIR/scripts
+#ln -s ${PWD}/myprofile.sh $WORK_DIR/scripts/myprofile.sh
 
 rm ~/.vimrc
 ln -s $WORK_DIR/vim/.vimrc ~/.vimrc 
