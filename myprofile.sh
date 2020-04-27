@@ -21,11 +21,16 @@ alias fi='sudo netplan apply'
 
 export BOOST_INCLUDE=/media/sf_shared/boost_1_71_0
 export PROJECTS=~/cpp_snippets
-export PATH=~/docker:/usr/local/bin:/home/maine/bin:/home/maine/.local/bin:/home/maine/go/bin:/home/maine/fasm:/home/mgarkusha_exd/setup/bin:$PATH
+export PATH=~/docker:/usr/local/bin:~/bin:/home/maine/.local/bin:/home/maine/go/bin:/home/maine/fasm:/home/mgarkusha_exd/setup/bin:$PATH
 export LD_LIBRARY_PATH=/usr/local/lib64:$LD_LIBRARY_PATH
 
 export INCLUDE=/home/maine/fasm/source/Linux 
 export HISEFILESIZE=10000
 export EDITOR=vim
+export GREP_OPTIONS='--color=auto'
+
+#git config --global core.autocrlf true
+git config --global core.eol lf
+git config --global core.autocrlf input
 
 set -o vi
