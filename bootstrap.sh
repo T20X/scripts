@@ -28,4 +28,12 @@ git clone https://github.com/tpope/vim-fugitive.git $BUNDLE_DIR/fugitive
 git clone https://github.com/ervandew/supertab.git $BUNDLE_DIR/supertab
 git clone https://github.com/vim-scripts/greplace.vim.git $BUNDLE_DIR/greplace
 git clone https://github.com/majutsushi/tagbar.git $BUNDLE_DIR/tagbar
+git cloen https://github.com/ycm-core/YouCompleteMe.git $BUNDLE_DIR/youcompleteme
+
+cd ~/$BUNDLE_DIR/youcompleteme 
+git submodule update --init --recursive
+python3 install.py --clangd-completer
+
+
+
 
