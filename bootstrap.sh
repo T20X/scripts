@@ -19,6 +19,7 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 #rm -rf $BUNDLE_DIR
 #mkdir -p $BUNDLE_DIR
+ulimit -c unlimited
 
 git clone https://github.com/scrooloose/nerdtree.git $BUNDLE_DIR/nerdtree
 git clone https://github.com/ctrlpvim/ctrlp.vim.git $BUNDLE_DIR/ctrlp
