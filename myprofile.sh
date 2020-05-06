@@ -33,5 +33,6 @@ export GREP_OPTIONS='--color=auto'
 #git config --global core.autocrlf true
 git config --global core.eol lf
 git config --global core.autocrlf input
+git config --global credential.helper store
 
 set -o vi
