@@ -17,7 +17,7 @@ alias tags='ctags -R --language-force=c++ --c++-kinds=+l --file-scope=no --tag-r
 alias p='cd /home/maine/kong/kong/python/grpc/examples/python/helloworld'
 alias ip='source ~/kong/kong/python/venv3/bin/activate'
 alias fi='sudo netplan apply'
-alias cm='cmake -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -D_CMAKE_TOOLCHAIN_PREFIX=llvm- ..'
+alias cm='cmake -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -D_CMAKE_TOOLCHAIN_PREFIX=llvm- -DCMAKE_INSTALL_PREFIX=./install  -DCMAKE_BUILD_TYPE=Debug ..'
 
 
 export BOOST_INCLUDE=/media/sf_shared/boost_1_71_0
@@ -36,3 +36,4 @@ git config --global core.autocrlf input
 git config --global credential.helper store
 
 set -o vi
+m
