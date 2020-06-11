@@ -28,7 +28,6 @@ export LD_LIBRARY_PATH=/usr/local/lib64:$LD_LIBRARY_PATH
 export INCLUDE=/home/maine/fasm/source/Linux 
 export HISEFILESIZE=10000
 export EDITOR=vim
-export GREP_OPTIONS='--color=auto'
 
 #git config --global core.autocrlf true
 git config --global core.eol lf
