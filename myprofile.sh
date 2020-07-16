@@ -18,6 +18,7 @@ alias p='cd /home/maine/kong/kong/python/grpc/examples/python/helloworld'
 alias ip='source ~/kong/kong/python/venv3/bin/activate'
 alias fi='sudo netplan apply'
 alias cm='cmake -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -D_CMAKE_TOOLCHAIN_PREFIX=llvm- -DCMAKE_INSTALL_PREFIX=./install  -DCMAKE_BUILD_TYPE=Debug ..'
+alias notime='git add -A .; git commit -m "fix the build"; git push'
 
 
 export BOOST_INCLUDE=/media/sf_shared/boost_1_71_0
