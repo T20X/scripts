@@ -19,6 +19,7 @@ alias ip='source ~/kong/kong/python/venv3/bin/activate'
 alias fi='sudo netplan apply'
 alias cm='cmake -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -D_CMAKE_TOOLCHAIN_PREFIX=llvm- -DCMAKE_INSTALL_PREFIX=./install  -DCMAKE_BUILD_TYPE=Debug ..'
 alias notime='git add -A .; git commit -m "fix the build"; git push'
+alias python='python3'
 
 
 export BOOST_INCLUDE=/media/sf_shared/boost_1_71_0
@@ -31,6 +32,7 @@ export HISEFILESIZE=10000
 export EDITOR=vim
 
 #git config --global core.autocrlf true
+alias git="PATH=/usr/bin git"
 git config --global core.eol lf
 git config --global core.autocrlf input
 git config --global credential.helper store
@@ -39,4 +41,4 @@ git config core.filemode false
 
 
 set -o vi
-m
+#m
