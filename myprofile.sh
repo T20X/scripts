@@ -36,9 +36,5 @@ alias git="PATH=/usr/bin git"
 git config --global core.eol lf
 git config --global core.autocrlf input
 git config --global credential.helper store
-git config core.filemode false
-
-
-
+git config core.filemode false 
 set -o vi
-#m
